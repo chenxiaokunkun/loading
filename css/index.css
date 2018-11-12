@@ -1,0 +1,65 @@
+*{
+    margin: 0 auto;
+    height: 0px;
+    font-family: 微软雅黑;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+}
+
+html,body{/*背景色*/
+    background-color: #999;
+}
+
+#kaishi{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@keyframes dt {
+    from{transform: scale(1)}
+    to{transform: scale(0)}
+}
+
+#kaishi>span{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    display: inline-block;
+    animation-name:dt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
